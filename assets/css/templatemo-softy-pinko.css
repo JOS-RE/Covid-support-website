@@ -375,8 +375,8 @@ header
 --------------------------------------------- 
 */
 .header-area {
-  position: fixed;
-  top: 30px;
+  position: absolute;
+  top: 150px;
   left: 0px;
   right: 0px;
   z-index: 100;
@@ -435,8 +435,8 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 700;
+  font-size: 15px;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -449,7 +449,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #0faada;
+  color: #11ace9;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -637,6 +637,8 @@ header
 /* 
 ---------------------------------------------
 welcome
+
+we provide the best etc etc....
 --------------------------------------------- 
 */
 .welcome-area {
@@ -749,6 +751,7 @@ welcome
 /* 
 ---------------------------------------------
 features
+small boxes after the discover more button
 --------------------------------------------- 
 */
 .features-small-item {
@@ -770,7 +773,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #ffd000;
 }
 
 .features-small-item .icon {
@@ -784,7 +787,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #0faada;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -914,7 +917,7 @@ parallax & home seperator
 
 .mini .mini-content .mini-box {
   display: block;
-  background: #fff;
+  background: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
