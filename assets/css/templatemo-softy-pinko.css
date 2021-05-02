@@ -325,14 +325,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #6d94ca;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #ee6161;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -341,11 +341,12 @@ a.main-button {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-
+/* READ MORE BUTTON */
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #e6d114;
 }
 
+/* send message button at the bottom */
 button.main-button {
   outline: none;
   border: none;
@@ -353,7 +354,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #0faada;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -364,7 +365,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #df73a0;
 }
 
 
@@ -387,7 +388,7 @@ header
 }
 
 .header-area .main-nav {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px rgba(223, 8, 8, 0.1);
   border-radius: 40px;
   min-height: 80px;
   background: #fff;
@@ -448,7 +449,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #0faada;
 }
 
 .header-area .main-nav .menu-trigger {
