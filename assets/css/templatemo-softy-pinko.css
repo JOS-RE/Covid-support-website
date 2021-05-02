@@ -311,6 +311,7 @@ body {
 }
 
 a.main-button-slider {
+    
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
@@ -330,8 +331,8 @@ a.main-button-slider:hover {
 
 a.main-button {
   font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
+  border-radius: 100px;
+  padding: 12px 10px;
   background-color: #ee6161;
   text-transform: uppercase;
   color: #fff;
@@ -368,7 +369,51 @@ button.main-button:hover {
   background-color: #df73a0;
 }
 
-
+/*---------------------------------------*/
+a.mainnn-button {
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+    font-size: 13px;
+    border-radius: 100px;
+    padding: 12px 10px;
+    background-color: #ee6161;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  /* READ MORE BUTTON */
+  a.mainnn-button:hover {
+    background-color: #6514e6;
+  }
+  
+  /* send message button at the bottom */
+  button.mainnn-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #0faada;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  button.mainnn-button:hover {
+    background-color: #df73a0;
+  }
+/*---------------------------------------*/
 /* 
 ---------------------------------------------
 header - navbarr
@@ -755,6 +800,8 @@ small boxes after the discover more button
 --------------------------------------------- 
 */
 .features-small-item {
+  position: relative;
+  align: center;
   cursor: pointer;
   display: block;
   background: #FFFFFF;
@@ -762,7 +809,7 @@ small boxes after the discover more button
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 30px;
-  padding: 30px;
+  padding: 110px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -781,8 +828,8 @@ small boxes after the discover more button
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   line-height: 90px;
   margin: auto;
   position: relative;
@@ -918,7 +965,7 @@ parallax & home seperator
 .mini .mini-content .mini-box {
   display: block;
   background: rgb(255, 255, 255);
-  padding: 20px;
+  padding: 30px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
