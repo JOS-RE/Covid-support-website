@@ -378,7 +378,7 @@ a.mainnn-button {
     font-size: 13px;
     border-radius: 100px;
     padding: 12px 10px;
-    background-color: #ee6161;
+    background-color: #e1306c;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.25px;
@@ -389,7 +389,7 @@ a.mainnn-button {
   }
   /* READ MORE BUTTON */
   a.mainnn-button:hover {
-    background-color: #6514e6;
+    background-color: #ffc400;
   }
   
   /* send message button at the bottom */
