@@ -1,7 +1,15 @@
-# Covid-relief-website
+# Social Assist
 
-This is the main branch. <br>
-The files that contain data about our website is in the 
-<b>master</b>  branch.
+Team : <strong>SMC T-1</strong>
 
-We will be keeping the description of our work in this main branch.
+1. Joshith Reddy Gopidi (L)<br>
+2. Madhvendra Pratap Singh<br>
+3. Nandini Jain<br>
+4. Ruchita Das<br>
+
+Problem Statement category elected : HEALTH
+
+### Project Description
+SOCIAL ASSIST has brought together various social media handles and support websites onto one place, while providing ease of accessing data and answering queries related to availability of various facilities, including the guidelines to mitigate the spread of this disease.
+
+To remove confusion in browsing all the resources, we have come up with our new Webpage- “SOCIAL ASSIST”.
